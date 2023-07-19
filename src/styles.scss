@@ -33,7 +33,16 @@ $enviromentsystem-theme: mat.define-light-theme((
 // that you are using.
 @include mat.all-component-themes($enviromentsystem-theme);
 
-/* You can add global styles to this file, and also import other style files */
 
+
+/* You can add global styles to this file, and also import other style files */
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+//imported global styles
+@import '../node_modules/bulma/bulma.sass';
+@import 'main-styles.scss';
+
+
