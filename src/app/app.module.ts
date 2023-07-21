@@ -9,7 +9,7 @@ import { KanbanDisplayComponent } from './pages/kanban-display/kanban-display.co
 @NgModule({
   declarations: [
     AppComponent,
-    KanbanDisplayComponent
+    KanbanDisplayComponent,
   ],
   imports: [
     BrowserModule,

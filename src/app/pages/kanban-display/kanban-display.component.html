@@ -7,27 +7,21 @@
                     <div class="column-title">
                         Avalible Enviroments
                     </div>
-
-                </div>
-
-                <div class="board-column">
-                    <div class="column-title">
-                        In-Use
+                    <div class="task-container" >
+                        <div class="task" **ngFor="let environment of environment">
+                            {{environment.environment}}
+                            {{environment.name}}
+                            
+                        </div>
                     </div>
 
                 </div>
-
-                <div class="board-column">
-                    <div class="column-title">
-                        Broken / unavalible 
-                    </div>
-
-                </div>
-
 
             </div>
 
         </div>
     </div>
 </div>
+
+
 
